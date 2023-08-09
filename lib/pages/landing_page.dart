@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:yellow_pages/pages/service_page.dart';
+import 'package:yellow_pages/pages/dashboard_page.dart';
 import 'package:yellow_pages/pages/manage_routes_page.dart';
 
 class LandingPage extends StatefulWidget {
@@ -26,7 +26,7 @@ class _LandingPageState extends State<LandingPage>
   }
 
   List homeScreenList = [
-    const ServicePage(),
+    const DashboardPage(),
     const RouteManagerPage(),
   ];
 
